@@ -8,6 +8,8 @@ from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq
 from dotenv import load_dotenv
 import os
 
+print("Loading11111...")
+
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
